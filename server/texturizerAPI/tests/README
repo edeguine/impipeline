@@ -1,0 +1,8 @@
+To test:
+
+- Create a fixture
+    python manage.py dumpdata > tests/testFixture.json
+- Run the test server:
+ python manage.py testserver tests/testFixture.json --addrport=9000 --no-input
+- Run the tests: 
+ python tests.py
